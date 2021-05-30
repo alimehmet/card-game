@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{55203BA7-7FAE-441A-B711-64070C9B64B3}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>kart_oyunu</RootNamespace>
+    <AssemblyName>kart_oyunu</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="girisEkrani.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="girisEkrani.Designer.cs">
+      <DependentUpon>girisEkrani.cs</DependentUpon>
+    </Compile>
+    <Compile Include="oyunEkrani2x5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="oyunEkrani2x5.Designer.cs">
+      <DependentUpon>oyunEkrani2x5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="oyunEkrani3x6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="oyunEkrani3x6.Designer.cs">
+      <DependentUpon>oyunEkrani3x6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="oyunEkrani4x5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="oyunEkrani4x5.Designer.cs">
+      <DependentUpon>oyunEkrani4x5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="girisEkrani.resx">
+      <DependentUpon>girisEkrani.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="oyunEkrani2x5.resx">
+      <DependentUpon>oyunEkrani2x5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="oyunEkrani3x6.resx">
+      <DependentUpon>oyunEkrani3x6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="oyunEkrani4x5.resx">
+      <DependentUpon>oyunEkrani4x5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\marvel\marvel_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\marvel\marvel_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\marvel\marvel_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\marvel\marvel_4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\marvel\marvel_5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\marvel\marvel_6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\marvel\marvel_7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\marvel\marvel_8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\marvel\marvel_question.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\animal\animal_1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\animal\animal_2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\animal\animal_3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\animal\animal_4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\animal\animal_5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\animal\animal_6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\animal\animal_7.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\animal\animal_8.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\animal\animal_9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\animal\animal_10.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\animal\animal_question.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\vegetables\vegetables_1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\vegetables\vegetables_2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\vegetables\vegetables_3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\vegetables\vegetables_4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\vegetables\vegetables_5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\vegetables\vegetables_6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\vegetables\vegetables_7.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\vegetables\vegetables_8.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\vegetables\vegetables_9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\vegetables\vegetables_10.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\vegetables\vegetables_question.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\eggs\eggs_1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\eggs\eggs_2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\eggs\eggs_3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\eggs\eggs_4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\eggs\eggs_5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\eggs\eggs_6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\eggs\eggs_7.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\eggs\eggs_8.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\eggs\eggs_9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\eggs\eggs_10.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\eggs\eggs_question.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

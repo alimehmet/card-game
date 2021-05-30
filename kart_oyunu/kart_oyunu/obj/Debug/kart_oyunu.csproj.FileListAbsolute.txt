@@ -1,0 +1,13 @@
+C:\Users\HP\source\repos\kart_oyunu\kart_oyunu\bin\Debug\kart_oyunu.exe.config
+C:\Users\HP\source\repos\kart_oyunu\kart_oyunu\bin\Debug\kart_oyunu.exe
+C:\Users\HP\source\repos\kart_oyunu\kart_oyunu\bin\Debug\kart_oyunu.pdb
+C:\Users\HP\source\repos\kart_oyunu\kart_oyunu\obj\Debug\kart_oyunu.csprojAssemblyReference.cache
+C:\Users\HP\source\repos\kart_oyunu\kart_oyunu\obj\Debug\kart_oyunu.Properties.Resources.resources
+C:\Users\HP\source\repos\kart_oyunu\kart_oyunu\obj\Debug\kart_oyunu.csproj.GenerateResource.cache
+C:\Users\HP\source\repos\kart_oyunu\kart_oyunu\obj\Debug\kart_oyunu.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\kart_oyunu\kart_oyunu\obj\Debug\kart_oyunu.exe
+C:\Users\HP\source\repos\kart_oyunu\kart_oyunu\obj\Debug\kart_oyunu.pdb
+C:\Users\HP\source\repos\kart_oyunu\kart_oyunu\obj\Debug\kart_oyunu.girisEkrani.resources
+C:\Users\HP\source\repos\kart_oyunu\kart_oyunu\obj\Debug\kart_oyunu.oyunEkrani3x6.resources
+C:\Users\HP\source\repos\kart_oyunu\kart_oyunu\obj\Debug\kart_oyunu.oyunEkrani2x5.resources
+C:\Users\HP\source\repos\kart_oyunu\kart_oyunu\obj\Debug\kart_oyunu.oyunEkrani4x5.resources
